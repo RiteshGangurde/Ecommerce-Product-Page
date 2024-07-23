@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOES Product Page</title>
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+        <nav>
+            <div class="logo">Nike</div>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#customers">Feedback</a></li>
+                <i class="fas fa-shopping-cart"></i>
+            </ul>
+            <div class="bx bx-menu" id="menu"></div>
+        </nav>
+    
+        <div class="flex-box">
+            <div class="left">
+                <div class="swiper slide">
+                    <div class="swiper-wrapper">
+                    <div data-hash="slide1" class="swiper-slide"><img src="Images/img1.jpeg" alt=""></div>
+                    <div data-hash="slide2" class="swiper-slide"><img src="Images/img2.jpeg" alt=""></div>
+                    <div data-hash="slide3" class="swiper-slide"><img src="Images/img3.jpeg" alt=""></div>
+                    <div data-hash="slide4" class="swiper-slide"><img src="Images/img4.jpeg" alt=""></div>
+                    <div data-hash="slide5" class="swiper-slide"><img src="Images/img5.jpeg" alt=""></div>
+                    <div data-hash="slide6" class="swiper-slide"><img src="Images/img6.jpeg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="pname">Air Jordan 1<br></div>
+                <div class="ratings">
+                    <div class="stars">
+                        <div class="totalStars">4.4</div>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>6,299 Ratings</p>
+                </div>
+                <div class="select">
+                    <p>Color :</p>
+                    <div class="option active" id="variant1"></div>
+                    <div class="option" id="variant2"></div>
+                    <div class="option" id="variant3"></div>
+                    <div class="option" id="variant4"></div>
+                    <div class="option" id="variant5"></div>
+                    <div class="option" id="variant6"></div>
+                </div>
+                <div class="select" id="ram-select">
+                    <p>Size :</p>
+                    <div class="option active">7 Uke</div>
+                    <div class="option">8 Uke</div>
+                    <div class="option ">9 Uke</div>
+                    <div class="option">10 Uke</div>
+                    <div class="option">11 Uke</div>
+                    
+                </div>
+                <div class="select" id="storage-select">
+                    <p>Gender :</p>
+                    <div class="option active">Male</div>
+                    <div class="option">Female</div>
+                </div>
+                <div class="amount">
+                    <div class="price disPrice">Rs.3919</div>
+                    <div class="price mrp">3999</div>
+                    <div class="disc">8%</div>
+                    <div class="info"><i class='bx bx-info-circle'></i></div>
+                </div>
+                <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="5" value="1" class="amount">
+                </div>
+                <div class="btn-box">
+                    <button class="cart-btn"><i class='bx bx-cart-add' ></i></button>
+                    <button class="buy-btn">Buy</button>
+                </div>
+                <div class="gap"></div>
+             
+                <section class="about" id="about">
+                    <div class="about-text">
+                        <span><br>Information</span>
+                        <p>The Air Jordan 1 Retro High remakes the classic sneaker, giving you a fresh look with a familiar feel. Premium materials with new colours and textures give modern expression to an all-time favourite. Leather offers durability and structure. Encapsulated Air-Sole units provide lightweight cushioning.</p>
+                        <h4>Product Details:</h4><p>Material type: Leather <br>Closure type: Lace-Up <br>Heel type: No Heel <br>Sole material: Leather <br>Style: Sneaker </p>
+                        <h4>About this item</h4><p>Outer Material : Leather <br>All nike products are meant to deliver high performance, durability and great comfort<br>Warranty details: Contact seller for warranty</p>
+                        <h4>Additional Information</h4><h6>Manufacturer</h6><p>Nike, Nike India Pvt Ltd C V Raman Nagar, Bangalore</p>
+                        <h6>Item Dimensions LxWxH</h6><p>26 x 8.5 x 9.5 Centimeters</p>
+                        <h6>Item Weight</h6><p>500 g</p>
+                        <p>Nike Footwear are made with premium quality material and gives ultimate comfort</p>
+                        <a href="#about" class="btn">Learn More<i class='bx bx-chevrons-right' ></i></a>
+                    </div>
+                </section>
+                <div class="gap"></div>
+                
+                <section class="customers" id="customers">
+                    <h2>Customers Review</h2>
+                    <div class="customers-container">
+                    
+                        <div class="box">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star-half"></i>
+                            <p>The Air Jordan 1 is a timeless classic. The design is iconic, with its high-top silhouette and bold colorways that make a statement. The leather quality is top-notch, providing both comfort and durability. On the court, they offer excellent ankle support and grip.</p>
+                            <div class="review-profile">
+                                <img src="Images/Profile/cus1.jpeg" alt="">
+                                <h3>Sakura N.</h3>
+                            </div>
+                        </div>
+                      
+                        <div class="box">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <p>I recently bought the Air Jordan 1 and have been impressed with their style and comfort. They have a snug fit, so I recommend going up half a size if you have wider feet. The design is sleek, and the attention to detail is evident. However, breaking them in took a bit longer than I expected.</p>
+                            <div class="review-profile">
+                                <img src="Images/Profile/cus2.jpeg" alt="">
+                                <h3>Sofia L.</h3>
+                            </div>
+                        </div>
+                      
+                        <div class="box">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bx-star"></i>
+                            <p>The Air Jordan 1 combines classic style with modern performance. The materials used are high quality, and the craftsmanship is excellent. They are comfortable for everyday wear, though the initial stiffness might be a downside for some. The colorways are diverse and vibrant, allowing you to express your personal style.</p>
+                            <div class="review-profile">
+                                <img src="Images/Profile/cus3.jpeg" alt="">
+                                <h3>Ben T.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Nike Inc. All rights reserved.</p>
+    </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   
+    <script src="script.js"></script>
+</body>
+</html>
